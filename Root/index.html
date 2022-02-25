@@ -1,96 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style\main.css">
-    <script src="Scripts\index.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Style\main.css" />
+
+    <!-- <script src="Scripts\index.js"></script> -->
     <title>HomePage to BITS MHSG</title>
-</head>
+  </head>
 
-<body>
-    <nav class="navbar">
-        <div class="navbar-links">
-            <a href="#" class="toggle-button">
-                <span class="bar"> </span>
-                <span class="bar"> </span>
-                <span class="bar"> </span>
-                <span class="bar"> </span>
-                <span class="bar"> </span>
-            </a>
-            <ul>
-                <li> <a href="index.html" target = "_blank"> Home</a></li>
-                <li> <a href="Source\articles.html" target = "_blank"> Articles </a></li>
-                <li> <a href="Source\Events.html" target = "_blank"> Events </a></li>
-                <li> <a href="Source\whatsNext.html" target = "_blank"> What's next </a></li>
-                <li> <a href="Source\aboutUs.html" target = "_blank"> About us </a></li>
-                <li> <a href="#" target = "_blank">Sign in/ Sign up</a></li>
+  <body>
+    <!-- <nav class="navbar navbar-expand">
+        <a href="#" class="toggle-button">
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+        </a>
+        <ul>
+          <li><a href="index.html" target="_blank"> Home</a></li>
+          <li><a href="Source\articles.html" target="_blank"> Articles </a></li>
+          <li><a href="Source\Events.html" target="_blank"> Events </a></li>
+          <li>
+            <a href="Source\whatsNext.html" target="_blank"> What's next </a>
+          </li>
+          <li><a href="Source\aboutUs.html" target="_blank"> About us </a></li>
+          <li><a href="#" target="_blank">Sign in/ Sign up</a></li>
+        </ul>
+    </nav> -->
+
+    <section id="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand">MHSG</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Events</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">What's Next</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Sign In</a>
+              </li>
             </ul>
+          </div>
+        </nav>
+
+        <div class="Logo" , id="HomepageLogo">
+          <img style: width="604px", height = "331px"
+          src="Source\images\Picture1.png" alt="none" srcset="">
         </div>
-    </nav>
 
-    <div class="Logo", id="HomepageLogo">
-        <img style: width="604px", height = "331px" src="Source\images\Picture1.png" alt="none" srcset="">
-    </div>
-
-    <div class="Socials">
-        Do follow and connect with us at
-        <div id="insta">
-            <a href="https://www.instagram.com/bits.mhsg/" target = "_blank">
-                <button>
-                    Instagram Handle 
-                </button>
+        <div class="Socials">
+          Do follow and connect with us at
+          <div id="insta">
+            <a href="https://www.instagram.com/bits.mhsg/" target="_blank">
+              <button>Instagram Handle</button>
             </a>
-        </div>
+          </div>
 
-        <div id="fb">
-            <a href="https://www.facebook.com/groups/BITS.MHSG/" target = "_blank">
-                <button>
-                    Facebook Page
-                </button>
+          <div id="fb">
+            <a
+              href="https://www.facebook.com/groups/BITS.MHSG/"
+              target="_blank"
+            >
+              <button>Facebook Page</button>
             </a>
-        </div>
+          </div>
 
-        <div id="discord">
-            <a href="https://discord.gg/hU4RHzqEmS" target = "_blank">
-                <button>
-                    Game Night
-                </button>
+          <div id="discord">
+            <a href="https://discord.gg/hU4RHzqEmS" target="_blank">
+              <button>Game Night</button>
             </a>
-            <a href="https://discord.gg/HxGUjFwZ" target = "_blank">
-                <button>
-                    Talk it out
-                </button>
+            <a href="https://discord.gg/HxGUjFwZ" target="_blank">
+              <button>Talk it out</button>
             </a>
-        </div>
-    </div>
-
-    <div class="About">
-        About us 
-        <div id="paragraph">
-            <p>
-
-            </p>
+          </div>
         </div>
 
-        <div id="learnMore">
-            <button>
-                Learn more
-            </button>
-        </div>
-    </div>
+        <div class="About">
+          About us
+          <div id="paragraph">
+            <p></p>
+          </div>
 
-<br>
-
-    <div class="Know-more-of-MH">
-        <!-- the short answer should cover a brief description of the authentic sources like WebMd and Medscape, and trained professionals etc -->
-        <div id="reachUsOut">
-            <button>
-                Reach us out 
-            </button>
+          <div id="learnMore">
+            <button>Learn more</button>
+          </div>
         </div>
-    </div>
-    
-</body>
+
+        <br />
+
+        <div class="Know-more-of-MH">
+          <!-- the short answer should cover a brief description of the authentic sources like WebMd and Medscape, and trained professionals etc -->
+          <div id="reachUsOut">
+            <button>Reach us out</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
