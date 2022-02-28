@@ -1,17 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .container-fluid {
   padding: 3% 15%;
-  background-color: #f57170;
 }
 
 #title {
-  background-color: #f57170;
-  color: white;
+  background-color: #fff;
+  border-top: 0.75rem solid #6d8299;
 }
 
 .navbar {
-  padding: 0 0 4.5rem;
+  margin: 0 0 4.5rem;
+  background-color: #ffe194;
 }
 
+.navbar-brand {
+  font-family: proxima-nova, sans-serif;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 .nav-item {
   padding: 0;
+}
+
+.logo {
 }
