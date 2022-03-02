@@ -9,14 +9,14 @@
 }
 
 #title {
-  background-color: #e43f5a;
-  border-top: 0.75rem solid #6d8299;
+  background-color: #5fb9b0;
+  border-top: 0.75rem solid #082032;
   padding-bottom: 4.5rem;
 }
 
 .navbar {
   margin: 0 0 4.5rem;
-  background-color: #e43f5a;
+  background-color: #41aea9;
 }
 
 .navbar-brand {
@@ -32,11 +32,20 @@
 .logo {
   width: 50%;
   height: auto;
+  /* padding-top: 10rem; */
 }
 
 #social {
   padding: 2rem 0 2rem;
   /* background-color: #ffe194; */
+}
+
+.fa-4x {
+  color: #fdca40;
+}
+
+.fa-4x:hover {
+  color: #fdb827;
 }
 
 .social-h3 {
