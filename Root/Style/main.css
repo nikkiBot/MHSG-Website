@@ -15,8 +15,10 @@
 }
 
 .navbar {
-  margin: 0 0 4.5rem;
+  margin: 2rem 0 4.5rem;
   background-color: #41aea9;
+  border-radius: 1.5rem;
+  box-shadow: 1px 2px 3px 4px #14141466;
 }
 
 .navbar-brand {
@@ -36,19 +38,28 @@
 }
 
 #social {
-  padding: 2rem 0 2rem;
+  padding: 1.5rem 0 1.5rem;
   /* background-color: #ffe194; */
 }
 
 .fa-4x {
-  color: #fdca40;
+  color: #f5b971;
 }
 
 .fa-4x:hover {
-  color: #fdb827;
+  color: #fdd998;
 }
 
 .social-h3 {
   font-family: proxima-nova, sans-serif;
   font-weight: bold;
+}
+
+#about {
+  background-color: #5fb9b0;
+  padding-bottom: 1.5rem;
+}
+
+.btn {
+  border-radius: 1.5rem;
 }
