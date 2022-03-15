@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.recent-article {
+  /* margin-top: 30px;
+  margin-bottom: 50px;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 15px;
+  font-family: "Poppins", sans-serif; */
+  width: 90%;
+  gap: 15px;
+  /* margin: auto; */
+}
+.recent-article img {
+  height: 300px;
+  width: 400px;
+}
+/* .text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.article-display {
+  width: 90%;
+  /* gap: 20px; */
+  /* margin: auto;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  font-family: "Poppins", sans-serif; */
+}
+/* .dis-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.dis-box {
+  width: 100%;
+}
+.dis-box p {
+  text-align: center;
+}
+.dis-box img {
+  width: auto;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.dis-box a {
+  text-decoration: none;
+  color: #f5c242;
+  background-color: #9942f5;
+  padding: 7px 10px;
+  border-radius: 10px;
+}
+.dis-box a:hover {
+  border: 1px solid #f5c242;
+  color: #9942f5;
+  background-color: white;
+  transition: ease 0.5s;
+}
+.functionality {
+  width: 90%;
+  /* margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif; */
+}
+.search {
+  display: flex;
+  flex-direction: column;
+}
+.functionality input {
+  border: 1px solid #9942f5;
+  border-radius: 10px;
+  padding: 5px;
+  height: 30px;
+}
+.functionality input::placeholder {
+  font-family: "Poppins", sans-serif;
+  color: orangered;
+}
+.functionality input:hover {
+  color: #f5c242;
+}
+@media screen and (max-width: 768px) {
+  .recent-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .article-display {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  } */
+  .dis-box img {
+    width: 100%;
+  }
+}
