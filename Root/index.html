@@ -25,9 +25,29 @@
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
+
+    <!-- Font Awesome Script -->
+    <script
+      src="https://kit.fontawesome.com/f0157a11fb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Proxima Nova reference. -->
+    <link
+      href="https://use.typekit.net/emv3zbo.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <!-- Arizona Bootstrap reference. -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.digital.arizona.edu/lib/arizona-bootstrap/2.0.13/css/arizona-bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- Local Style sheet -->
     <link rel="stylesheet" href="Style\main.css" />
 
-    <!-- <script src="Scripts\index.js"></script> -->
     <title>HomePage to BITS MHSG</title>
   </head>
 
@@ -53,7 +73,7 @@
     </nav> -->
 
     <section id="title">
-      <div class="container-fluid">
+      <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark">
           <a class="navbar-brand">MHSG</a>
           <button
@@ -69,9 +89,6 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="" class="nav-link">Home</a>
-              </li>
               <li class="nav-item">
                 <a href="" class="nav-link">Articles</a>
               </li>
@@ -92,57 +109,208 @@
         </nav>
 
         <div class="Logo" , id="HomepageLogo">
-          <img style: width="604px", height = "331px"
-          src="Source\images\Picture1.png" alt="none" srcset="">
+          <img
+            src="Source\images\Picture1.png"
+            alt="none"
+            srcset=""
+            class="rounded mx-auto d-block logo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="social">
+      <div class="container media-handle">
+        <!-- Do follow and connect with us at -->
+        <!-- <div id="insta">
+          <a href="https://www.instagram.com/bits.mhsg/" target="_blank">
+            <button>Instagram Handle</button>
+          </a>
         </div>
 
-        <div class="Socials">
-          Do follow and connect with us at
-          <div id="insta">
-            <a href="https://www.instagram.com/bits.mhsg/" target="_blank">
-              <button>Instagram Handle</button>
-            </a>
-          </div>
-
-          <div id="fb">
-            <a
-              href="https://www.facebook.com/groups/BITS.MHSG/"
-              target="_blank"
-            >
-              <button>Facebook Page</button>
-            </a>
-          </div>
-
-          <div id="discord">
-            <a href="https://discord.gg/hU4RHzqEmS" target="_blank">
-              <button>Game Night</button>
-            </a>
-            <a href="https://discord.gg/HxGUjFwZ" target="_blank">
-              <button>Talk it out</button>
-            </a>
-          </div>
+        <div id="fb">
+          <a href="https://www.facebook.com/groups/BITS.MHSG/" target="_blank">
+            <button>Facebook Page</button>
+          </a>
         </div>
 
-        <div class="About">
-          About us
-          <div id="paragraph">
-            <p></p>
+        <div id="discord">
+          <a href="https://discord.gg/hU4RHzqEmS" target="_blank">
+            <button>Game Night</button>
+          </a>
+          <a href="https://discord.gg/HxGUjFwZ" target="_blank">
+            <button>Talk it out</button>
+          </a>
+        </div> -->
+        <div class="row my-lg-4 text-center">
+          <div class="col-lg-4 col-md-6 my-3">
+            <a href="https://www.instagram.com/bits.mhsg/">
+              <span class="fa-brands fa-instagram fa-4x"></span>
+            </a>
+            <h3 class="social-h3">Instagram Handle</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
+              distinctio molestias, esse eos dolore rerum, facere, ad sequi
+              expedita quas eligendi non molestiae et itaque nemo pariatur
+              voluptas odio! Impedit.
+            </p>
           </div>
+          <div class="col-lg-4 col-md-6 my-3">
+            <a href="https://www.facebook.com/groups/BITS.MHSG/">
+              <span class="fa-brands fa-facebook fa-4x"></span>
+            </a>
+            <h3 class="social-h3">Facebook Page</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
+              distinctio molestias, esse eos dolore rerum, facere, ad sequi
+              expedita quas eligendi non molestiae et itaque nemo pariatur
+              voluptas odio! Impedit.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12 my-3">
+            <a href="https://discord.gg/hU4RHzqEmS">
+              <span class="fa-brands fa-github fa-4x"></span>
+            </a>
+            <h3 class="social-h3">Game Night</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque
+              distinctio molestias, esse eos dolore rerum, facere, ad sequi
+              expedita quas eligendi non molestiae et itaque nemo pariatur
+              voluptas odio! Impedit.
+            </p>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </section>
 
-          <div id="learnMore">
-            <button>Learn more</button>
+    <section id="carousel">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="Source\images\game-night-1.jpg"
+              class="carousel-img rounded mx-auto d-block logo"
+              alt="..."
+            />
+            <h2 class="rounded mx-auto d-block logo">Game Night</h2>
+            <p class="rounded mx-auto d-block logo text-center">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+              ullam illo incidunt! Maiores cupiditate magnam ipsa accusamus
+              omnis, nihil quod ea aliquam adipisci minus laborum consequuntur
+              assumenda, officiis, necessitatibus dicta.
+            </p>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Source\images\talk-it-out-1.jpg"
+              class="carousel-img rounded mx-auto d-block logo"
+              alt="..."
+            />
+            <h2 class="rounded mx-auto d-block logo">Talk it Out</h2>
+            <p class="rounded mx-auto d-block logo text-center">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+              ullam illo incidunt! Maiores cupiditate magnam ipsa accusamus
+              omnis, nihil quod ea aliquam adipisci minus laborum consequuntur
+              assumenda, officiis, necessitatibus dicta.
+            </p>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Source\images\silent-struggle-1.jpg"
+              class="carousel-img rounded mx-auto d-block logo"
+              alt="..."
+            />
+            <h2 class="rounded mx-auto d-block logo">Silent Struggle</h2>
+            <p class="rounded mx-auto d-block logo text-center">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+              ullam illo incidunt! Maiores cupiditate magnam ipsa accusamus
+              omnis, nihil quod ea aliquam adipisci minus laborum consequuntur
+              assumenda, officiis, necessitatibus dicta.
+            </p>
           </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleControls"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleControls"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    </section>
 
-        <br />
+    <section id="Quote">
+      <div class="container text-center">
+        <h3>
+          “Sometimes you climb out of bed in the morning and you think, I am not
+          going to make it, but you laugh inside — remembering all the times
+          you’ve felt that way.”
+        </h3>
+        <p class="blockquote-footer">Charles Bukowski</p>
+      </div>
+    </section>
 
-        <div class="Know-more-of-MH">
-          <!-- the short answer should cover a brief description of the authentic sources like WebMd and Medscape, and trained professionals etc -->
-          <div id="reachUsOut">
-            <button>Reach us out</button>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center py-md-3 py-sm-2">
+            <h3 class="about-h3">About us</h3>
+            <div id="paragraph">
+              <p class="about-para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                sit necessitatibus inventore molestias nulla. Accusantium, atque
+                pariatur nulla ipsa odit fugiat tempore facere minima aliquam
+                consectetur deserunt dicta, iure necessitatibus.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center pt-lg-6 py-md-3 py-sm-2">
+            <div class="row">
+              <div class="col learnMore my-3">
+                <a
+                  ><button
+                    class="btn btn-outline-light text-secondary btn-lg footer-button"
+                  >
+                    Learn more
+                  </button></a
+                >
+                <div class="col reachout my-3">
+                  <a>
+                    <button
+                      class="btn btn-outline-light text-secondary btn-lg footer-button"
+                    >
+                      Reach us out
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <div class="Know-more-of-MH">
+      <!-- the short answer should cover a brief description of the authentic sources like WebMd and Medscape, and trained professionals etc -->
+      <div id="reachUsOut">
+        <button>Reach us out</button>
+      </div>
+    </div>
   </body>
 </html>
