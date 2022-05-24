@@ -6,6 +6,7 @@
 
 body {
   font-family: proxima-nova, sans-serif;
+  background-color: #f7f7f7;
 }
 
 .container-fluid {
@@ -19,7 +20,7 @@ body {
 }
 
 .navbar {
-  margin: 0 0 4.5rem;
+  margin: 0 0 4rem;
   background-color: #41aea9;
   /* border-radius: 1.5rem; */
   box-shadow: 1px 2px 3px 4px #14141466;
@@ -39,7 +40,7 @@ body {
 .logo {
   width: 50%;
   height: auto;
-  padding-top: 10rem;
+  padding-top: 8.5rem;
 }
 .logo-1 {
   width: 50%;
@@ -100,10 +101,116 @@ body {
   font-weight: bold;
   color: #fff;
 }
-.btn {
+.btn-footer {
   border-radius: 1.5rem;
 }
 
-.footer-button:hover {
+.btn-footer:hover {
   color: #49595e;
+}
+
+/* Events Page */
+.background-img {
+  margin: 1.8rem 0 0;
+  background-image: url("Hero-img.jpg");
+  background-color: #5fb9b0;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Hero-h1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+#featured-events {
+  padding: 2% 10%;
+}
+
+.events-hr {
+  margin: 1%;
+  border: none;
+  height: 1px;
+  /* color: #fff; */
+  background-color: black;
+}
+
+.past-event-subhead {
+  font-family: "Merriweather", serif;
+  color: #565656;
+}
+
+.past-event-p {
+  font-family: "Nunito", sans-serif;
+  color: #565656;
+}
+
+.events-h2 {
+  text-align: center;
+  margin: 1%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.event-img {
+  /* height: 11%; */
+  width: 100%;
+  display: inline-block;
+  line-height: 0;
+}
+
+.btn {
+  width: 100%;
+}
+
+.more-events {
+  font-size: 1.8rem;
+}
+
+.col-event-1,
+.col-event-2,
+.col-event-3 {
+  background-color: #fff;
+}
+
+.col-stress-free {
+  background-color: #ffe59d;
+}
+.stress-free-img {
+  margin-top: 5.5rem;
+  margin-left: 3.5rem;
+  width: 80%;
+}
+
+.stress-free-h5 {
+  margin-top: 1.2rem;
+  margin-left: 3.3rem;
+  color: #272727;
+}
+
+.stress-free-p {
+  margin-left: 3.3rem;
+  margin-right: 2.3rem;
+  color: #565656;
+}
+
+.latest-news-row {
+  margin: 12% auto;
+  background-color: #fff;
+}
+
+.latest-event-1,
+.latest-event-2,
+.latest-event-3 {
+  /* margin: 5%; */
+  width: 45%;
+  height: auto;
+  float: left;
+  margin-right: 5%;
+}
+
+.latest-news-p {
+  display: inline;
+  font-family: "Nunito", sans-serif;
+  color: #565656;
 }
