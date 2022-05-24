@@ -1,11 +1,8 @@
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: proxima-nova, sans-serif;
 }
 
 .container-fluid {
@@ -14,20 +11,19 @@ body {
 
 #title {
   background-color: #5fb9b0;
-  /* border-top: 0.75rem solid #082032; */
+  border-top: 0.75rem solid #082032;
   padding-bottom: 4.5rem;
 }
 
 .navbar {
-  margin: 0 0 4.5rem;
+  margin: 2rem 0 4.5rem;
   background-color: #41aea9;
-  /* border-radius: 1.5rem; */
+  border-radius: 1.5rem;
   box-shadow: 1px 2px 3px 4px #14141466;
-  opacity: 0.9;
 }
 
 .navbar-brand {
-  /* font-family: proxima-nova, sans-serif; */
+  font-family: proxima-nova, sans-serif;
   text-decoration: none;
   font-size: 2.5rem;
   font-weight: bold;
@@ -37,11 +33,6 @@ body {
 }
 
 .logo {
-  width: 50%;
-  height: auto;
-  padding-top: 10rem;
-}
-.logo-1 {
   width: 50%;
   height: auto;
   /* padding-top: 10rem; */
@@ -65,45 +56,18 @@ body {
   font-weight: bold;
 }
 
-#carousel {
-  background-color: #5fb9b0;
-}
-
-.carousel-img {
-  margin: 3rem;
-  width: 50%;
-  height: auto;
-  border-radius: 10rem;
-}
-
-.carousel-item h2 {
-  text-align: center;
-  font-weight: bold;
-  color: #fff;
-}
-
-.carousel-item p {
-  font-weight: bold;
-  color: #fff;
-}
-
 #about {
   background-color: #5fb9b0;
   padding-bottom: 1.5rem;
+  /* border-bottom: 0.75rem solid #082032; */
 }
 
-.about-h3 {
-  font-weight: bold;
+/* .about-h3 {
   color: #fff;
-}
-.about-para {
-  font-weight: bold;
-  color: #fff;
-}
+} */
+/* .about-para {
+  color: #ffffff80;
+} */
 .btn {
   border-radius: 1.5rem;
-}
-
-.footer-button:hover {
-  color: #49595e;
 }
